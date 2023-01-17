@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!--style-->
+    <link rel="stylesheet" href="./style/style.css">
+    <!--javascript-->
+    <script src="./javascript/script.js" defer></script>
+    <title>Espera Consultorio</title>
+</head>
+<body>
+    <nav><img src="./images/logo.png" alt="Logo com gato e cachorro dentro de um arvore em forma de lua "></nav>
+
+    <div class="textContent">
+        <h2>Bem vindo a clinica NewPet 🐾</h2>
+        <h3>Aguarde ser chamado</h3>
+    </div>
+
+    <div class="formArea">
+        <form action="get">
+            <label for="animalName">
+                <p>Pet:
+                    <input type="text" name="amimalName" id="animalName" required>
+                </p>
+                
+                <input class="btn" type="submit" value="Adcionar a Espera">
+                <input class="btn" type="button" value="Urgência" id="btnUrgencia">
+                <input class="btn" type="button" value="Atender" id="btnAtender">
+            </label>
+        </form>
+    </div>
+    <div class="atendimentoArea">
+        <h3>Em Atendimento:
+            <span class="fonteAzul"></span>
+        </h3>
+        <pre id="list"></pre>
+    </div>
+    
+</body>
+</html>
